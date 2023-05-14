@@ -1,0 +1,9 @@
+.env
+messages.json
+/assets
+/lib64
+/lib
+/bin
+pyvenv.cfg
+/include
+*~
