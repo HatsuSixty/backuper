@@ -1,6 +1,7 @@
 # Backuper
 
-Backup a discord chat.
+<center><img alt="logo" src="./backuper.png" height="272"></center>
+<center>Backup a discord chat</center>
 
 ## Quick Start
 
