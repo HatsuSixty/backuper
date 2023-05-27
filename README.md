@@ -1,7 +1,11 @@
 # Backuper
 
-<center><img alt="logo" src="./backuper.png" height="272"></center>
-<center>Backup a discord chat</center>
+<p align="center">
+  <br>
+    <img alt="logo" src="./backuper.png" height="272" />
+  <br>
+  Backup a discord chat
+<p>
 
 ## Quick Start
 
