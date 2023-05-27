@@ -43,7 +43,7 @@ class MyClient(discord.Client):
                             if m.attachments:
                                 m_object["attachments"] = []
                                 for a in m.attachments:
-                                    fpath = f"assets/file{len(messages)}"
+                                    fpath = f"assets/file{len(messages)+len(collected_attachments)}"
                                     m_object["attachments"].append(fpath)
                                     buf = io.BytesIO(b'')
                                     await a.save(buf)
