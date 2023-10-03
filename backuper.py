@@ -38,7 +38,7 @@ class MyClient(discord.Client):
                             m_object = {
                                 "content": m.content,
                                 "date": f"{md.day}/{md.month}/{md.year} {md.hour}:{md.minute}:{md.second}",
-                                "author": f"{m.author.name}#{m.author.discriminator}"
+                                "author": f"{m.author.name}"
                             }
                             if m.attachments:
                                 m_object["attachments"] = []
